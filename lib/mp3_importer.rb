@@ -5,7 +5,7 @@ class MP3Importer
   end 
   
   def files
-    
-    
+    files =[]
+    self.path.each {|file| files << file}
   end 
 end 
