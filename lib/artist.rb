@@ -34,9 +34,11 @@ class Artist
     if find(artist_name)
           find(artist_name)
       else
-        self.new(artist_name)
-        save
+        artist = self.new(artist_name)
+        artist.save
+         artist
     end
+   
   end 
   def self.create(name)
     artist = Artist.new(name)
