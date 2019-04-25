@@ -6,7 +6,7 @@ class MP3Importer
   
   def files
     files =[]
-    Dir.new(self.path).each {|file| files << file if file.length >=4}
+    Dir.new(self.path).each {|file| files << file if files.length >=4}
     files
   end 
 end 
