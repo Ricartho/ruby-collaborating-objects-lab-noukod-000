@@ -40,11 +40,7 @@ class Artist
     end
    
   end 
-  def self.create(name)
-    artist = Artist.new(name)
-    artist.save
-    artist
-  end 
+ 
    
    def print_songs
     puts @songs.collect{|val| val.name}
