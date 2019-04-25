@@ -1,4 +1,4 @@
-class MP3Impoter
+class MP3Importer
   
   def initialize(path)
     @path = path
