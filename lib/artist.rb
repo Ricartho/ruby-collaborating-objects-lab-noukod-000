@@ -36,7 +36,7 @@ class Artist
       else
         artist = self.new(artist_name)
         artist.save
-         
+         artist
     end
    
   end 
